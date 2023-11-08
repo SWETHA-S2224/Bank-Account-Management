@@ -59,21 +59,6 @@ namespace C_Project
                 }
             }
         }
-        //public static void Delete(string username)
-        //{
-        //    using(var con = new SqlConnection(connectionstring)) 
-        //    {
-        //        using(var cmd=new SqlCommand("deleteUser",con))
-        //        {
-        //            cmd.CommandType = CommandType.StoredProcedure;
-        //            cmd.Parameters.AddWithValue("@username",username);
-        //            con.Open();
-        //            cmd.ExecuteNonQuery();
-        //            Console.WriteLine("User detail is removed successfully!!!");
-        //        }
-        //    }
-        //    Login.ShowMenu();
-
-        //}
+       
     }
 }
