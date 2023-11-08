@@ -60,9 +60,6 @@ namespace C_Project
         }
         public static void ModifyName(int acc)
         {
-            //Console.WriteLine("Enter the account number that you would like to make changes : ");
-            //int acc = Convert.ToInt32(Console.ReadLine());
-            //Detail(acc);
             using (var con = new SqlConnection(connectionstring))
             {
                 using (var cmd = new SqlCommand("UpdateUserName", con))
