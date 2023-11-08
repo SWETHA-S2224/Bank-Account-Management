@@ -17,7 +17,7 @@ namespace C_Project
         public static string connectionstring = "Data Source=ICPU0076\\SQLEXPRESS;Initial Catalog=WebApi;Persist Security Info=True;User ID=sa;Password=sql@123";
         public static void ShowMenu()
         {
-            //Program.Menu();
+      
             Console.WriteLine("Would you like to continue (Y / N)");
             char choice = Convert.ToChar(Console.ReadLine());
             if(choice == 'Y' || choice =='y')
