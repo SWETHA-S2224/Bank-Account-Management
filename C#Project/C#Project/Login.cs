@@ -29,43 +29,5 @@ namespace C_Project
                 Console.WriteLine("Thank You! Have a Good Day");
             }
         }
-        //MENU OPTION : 2 --> user registeration
-        //public static void RegisterationDetail()
-        //{
-        //    Console.WriteLine("************************************************");
-        //    Console.WriteLine("For registration purpose, please give answer for the below questions!");
-        //    Console.WriteLine("Enter the username : ");
-        //    string username=Console.ReadLine();
-        //    Console.WriteLine("Enter the password : ");
-        //    string password = Console.ReadLine();
-        //    Console.WriteLine("Enter the account number : ");
-        //    int anum =  Convert.ToInt32(Console.ReadLine());
-        //    Console.WriteLine("Enter the amount going to deposit : ");
-        //    int balance = Convert.ToInt32(Console.ReadLine());
-        //    Console.WriteLine("Enter the bank name : ");
-        //    string bname =Console.ReadLine();
-        //    Console.WriteLine("Enter the bank branch name : ");
-        //    string bbranch = Console.ReadLine();
-
-        //    using (var con = new SqlConnection(connectionstring))
-        //    {
-        //        using (var cmd = new SqlCommand("insertuserdetail", con))
-        //        {
-        //            cmd.CommandType = CommandType.StoredProcedure;
-        //            cmd.Parameters.AddWithValue("@acc_num ", anum);
-        //            cmd.Parameters.AddWithValue("@user_name", username);
-        //            cmd.Parameters.AddWithValue("@password", password);
-        //            cmd.Parameters.AddWithValue("@Balance", balance);
-        //            cmd.Parameters.AddWithValue("@bank_name", bname);
-        //            cmd.Parameters.AddWithValue("@bank_branch", bbranch);
-        //            con.Open();
-        //            cmd.ExecuteNonQuery();
-        //            Console.WriteLine("User registeration is successfully completed");
-        //            Console.WriteLine("***************************************************************");
-        //            ShowMenu();
-        //        }
-        //    }
-        //}
-
     }
 }
